@@ -1,0 +1,6 @@
+Automatyzacja testowania c.1 - Wprowadzenie
+Automatyzacja testowania c.2 - Instalacja narzedzi
+Automatyzacja testowania 
+Automatyzacja testowania 
+Automatyzacja testowania c.3 - DevTools / DOM
+Automatyzacja testowania c.4 - WebElementy / Selektory

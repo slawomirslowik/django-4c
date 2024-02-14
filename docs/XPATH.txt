@@ -1,0 +1,6 @@
+DOM (ang. Document Object Model, obiektowy model dokumentu) to API dla dokumentów (X)HTML. Wprowadza strukturalne odwzorowanie dokumentu, pozwalając modyfikować jego zawartość i warstwę prezentacji. Podsumowując, DOM łączy strony WWW ze skryptami lub innymi językami programowania.
+
+XPATH:
+https://jaktestowac.pl/xpath-szybka-sciaga/
+https://codebeautify.org/Xpath-Tester
+
