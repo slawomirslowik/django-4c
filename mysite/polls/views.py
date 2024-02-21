@@ -18,5 +18,6 @@ def index(request):
             <br>
             <button id='button1' style="background-color:red" onclick="myFunction()">Click me!</button>
         </div>
+        
         """
         )
