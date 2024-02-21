@@ -1,23 +1,15 @@
-from django.shortcuts import render
-
 from django.http import HttpResponse
+from django.template import loader
+
+from .models import Question
 
 
 def index(request):
-    return HttpResponse(
-        """
-        <script>
-            var counter = 0;
-            function myFunction() {
-                alert('Hello html world! Click counter: ' + counter);
-                counter++;
-            }
-        </script>
-        <div>
-            <p>Hello, world. You're at the polls index.</p>
-            <br>
-            <button id='button1' style="background-color:red" onclick="myFunction()">Click me!</button>
-        </div>
-        
-        """
-        )
+    latest_question_list = Question.objects.order_by("-pub_date")[:5]
+    output = "<br>".join(["<p>" + q.question_text + "</p>" for q in latest_question_list])
+    return HttpResponse(output)
+
+def counter(request):
+    template = loader.get_template('counter.html')
+    context = {}
+    return HttpResponse(template.render(context, request))
