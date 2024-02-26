@@ -18,3 +18,7 @@ My first python django application
 7. Install Django framework: pip install django --upgrade
 8. Follow tutorial part 1: 
    https://docs.djangoproject.com/pl/5.0/intro/tutorial01/#top
+
+
+additional tutek: 
+https://www.scaler.com/topics/add-css-file-to-django/

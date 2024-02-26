@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <script>
+        var counter = 0;
+        function myFunction() {
+            alert('Hello html world! Click counter: ' + counter);
+            counter++;
+        }
+    </script>
+    <body>
+        <h1>Counter</h1>
+        <div>
+            <p>Hello, world. You're at the polls/counter.</p>
+            <br>
+            <button id='button1' style="background-color:red" onclick="myFunction()">Click me!</button>
+        </div>
+    </body>
+</html>
