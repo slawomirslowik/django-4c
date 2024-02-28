@@ -11,9 +11,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 import os
 from pathlib import Path
-from dotenv import load_dotenv
-
-load_dotenv()
+from . import mysecrets
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -80,8 +78,8 @@ DATABASES = {
     "default": {
         "ENGINE": "mssql",
         "NAME": "django-zsl",
-        "USER": os.environ['DB_USER'],
-        "PASSWORD": os.environ['DB_PASSWORD'],
+        "USER": "sslowik_SQLLogin_1",
+        "PASSWORD": mysecrets.USER_PASS,
         "HOST": "django-zsl.mssql.somee.com",
         "PORT": "1433",
         "OPTIONS": {"driver": "ODBC Driver 17 for SQL Server",
