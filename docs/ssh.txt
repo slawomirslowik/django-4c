@@ -1,0 +1,9 @@
+1. w konsoli gita:
+ssh-keygen -> 3x enter (domyslnie, haslo niepiotrzebne)
+
+2. z user/myuser/.ssh kopiujemy zawartosc pliku .pub i dodajemy nowy klucz SSH w:
+ github/settings/SSH keys
+
+3. Z repozytorium kopiujemy link ssh (repo -> code/ssh)
+
+4. git remot set-url origin git@github.com:slawomirslowik/django-4c.git
