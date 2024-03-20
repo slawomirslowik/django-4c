@@ -78,7 +78,7 @@ DATABASES = {
     "default": {
         "ENGINE": "mssql",
         "NAME": "django-zsl",
-        "USER": "sslowik_SQLLogin_1",
+        "USER": mysecrets.USER_NAME,
         "PASSWORD": mysecrets.USER_PASS,
         "HOST": "django-zsl.mssql.somee.com",
         "PORT": "1433",

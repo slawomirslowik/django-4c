@@ -10,15 +10,22 @@ My first python django application
 4. Create new public repo on github, adding README and .gitignore template - python
 5. Copy repository address (code / https > link   <https://my-repo-link>.git)
 6. In git bash link local repo to remote origin: 
-   
+
     git remote add origin  <https://my-repo-link>.git
 	git branch -M main
     git branch --set-upstream-to=origin/main main
-	
+
 7. Install Django framework: pip install django --upgrade
-8. Follow tutorial part 1: 
+8. Follow tutorial part 1:
    https://docs.djangoproject.com/pl/5.0/intro/tutorial01/#top
 
 
-additional tutek: 
+additional tutek:
 https://www.scaler.com/topics/add-css-file-to-django/
+
+
+Classes:
+2024-03-20
+
+Tworzenie aplikacji www z Python/Django - Szablony/Zmienne c.1
+Tworzenie aplikacji www z Python/Django - Szablony/Zmienne c.2
